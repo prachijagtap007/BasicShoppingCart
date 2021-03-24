@@ -23,7 +23,7 @@ const Cart = () => {
                             cartItems.length > 0 ?
                             <CartProducts/> :
                             <div className="p-3 text-center text-success">
-                                <Link to="/" className="btn btn-outline-success btn-sm">Continue Shopping</Link>
+                                <Link to="/BasicShoppingCart" className="btn btn-outline-success btn-sm">Continue Shopping</Link>
                             </div>
                         }
                     </div>
